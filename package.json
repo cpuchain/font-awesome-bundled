@@ -1,0 +1,37 @@
+{
+    "name": "font-awesome-bundled",
+    "version": "6.7.2",
+    "description": "Font Awesome icons with fonts bundled in base64",
+    "license": "MIT",
+    "author": "CPUchain",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "keywords": ["font-awesome", "fontawesome", "bundled", "css", "fonts", "icons"],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cpuchain/font-awesome-bundled.git"
+    },
+    "scripts": {
+        "lint": "eslint src/**/*.ts scripts/**/*.ts",
+        "build": "ts-node scripts/sync.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@cpuchain/eslint": "^1.0.5",
+        "@fortawesome/fontawesome-free": "^6.7.2",
+        "@types/mime-types": "^2.1.4",
+        "@types/node": "^22.15.17",
+        "@types/postcss-url": "^10.0.4",
+        "cssnano": "^7.0.7",
+        "mime-types": "^3.0.1",
+        "postcss": "^8.5.3",
+        "postcss-url": "^10.1.3",
+        "ts-node": "^10.9.2",
+        "tsc": "^2.0.4",
+        "typescript": "^5.8.3"
+    },
+    "resolutions": {
+        "cookie": "^0.7.2",
+        "fast-glob": ">=3.3.3"
+    }
+}
